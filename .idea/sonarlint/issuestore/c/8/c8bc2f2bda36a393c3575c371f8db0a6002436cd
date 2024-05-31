@@ -1,0 +1,10 @@
+
+”
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(æù§…ýÿÿÿÿ8†ªÐÎ÷1J$d7340535-3b75-45d4-930d-f525588ec58d
+‚
+java:S1854":Remove this useless assignment to local variable "reader".(æù§…ýÿÿÿÿ8ð•×Î÷1J$50bf07da-0cdb-4ef5-9f19-e9eabe6dd502
+s
+java:S1481"+Remove this unused "reader" local variable.(æù§…ýÿÿÿÿ8ƒ–×Î÷1J$bdaa4d9b-289f-461a-956b-6aba24c06613
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ñ¥ùšøÿÿÿÿ8Š–×Î÷1J$75498a02-2187-42c9-93a5-d2682ee3790d
+x
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8–×Î÷1J$184e720d-09d8-4297-8923-4569d8ce9368

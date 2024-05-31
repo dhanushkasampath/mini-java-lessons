@@ -1,0 +1,18 @@
+
+„
+java:S1854"<Remove this useless assignment to local variable "justDemo".(±öËÈıÿÿÿÿ8½…·üğ1J$9d157f0f-fc67-45b1-a6fd-3f78a184f9bc
+„
+java:S1854"<Remove this useless assignment to local variable "justDemo".(äõªşÿÿÿÿ8½…·üğ1J$3a2c09d8-0f72-43ad-aeb7-6ec8355f8417
+~	java:S125"<This block of commented-out lines of code should be removed.(å„‹8×µ»üğ1J$e6d6fbad-21d8-42a6-9743-9b93871c7981
+u
+java:S1481"-Remove this unused "justDemo" local variable.(äõªşÿÿÿÿ8Á…·üğ1J$98b37c2b-1d20-47b0-99eb-0f1ad11b2e03
+—
+java:S1215
+"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8ùñ–ñ1J$4dcefaf2-09ee-4dd0-998d-3af223614b79
+r	java:S106"+Replace this use of System.out by a logger.(ĞÒàæşÿÿÿÿ8ÇÒ²üğ1J$88deee63-db40-44a3-b00e-faaab9f620c1
+~	java:S125"<This block of commented-out lines of code should be removed.(ıì€ı8¿Á³üğ1J$80e7ab42-6a96-4d62-bd03-e115d17e9f5f
+’
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÖÒ˜Ùùÿÿÿÿ8ûô±üğ1J$e8c43a6b-920c-49c7-a9fa-3c9443ad798d
+u
+java:S1113"-Do not override the Object.finalize() method.(ÖÒ˜Ùùÿÿÿÿ8ıô±üğ1J$754e41e9-ee1a-4663-b9d8-0923ec220a24
+r	java:S106"+Replace this use of System.out by a logger.(Ã•ığøÿÿÿÿ8È…·üğ1J$27fbb35d-07ad-4f57-b74c-be4fc95e49f1
