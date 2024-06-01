@@ -27,3 +27,7 @@ Z
 *src/com/test/finalize_method/JustDemo.java,f/5/f5fea9044733bb841f1970c72162cc507b54fd78
 S
 #src/com/test/iterator/ListDemo.java,f/e/feeb9104196837082fb7986b562d9ef63951e6b0
+h
+8src/com/test/java8_new_features/predicates/NomalWay.java,d/d/dd73845b93e4983b97c0f13ea8b3516c1b650053
+l
+<src/com/test/java8_new_features/predicates/PredicateWay.java,2/0/209e289415c38454ea66f8f9ee17540a372bbd94
