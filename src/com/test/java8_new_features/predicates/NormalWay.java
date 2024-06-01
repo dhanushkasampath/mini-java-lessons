@@ -2,11 +2,11 @@ package com.test.java8_new_features.predicates;
 
 //assume you want to return true if the length of a string is greater than 5. else false.
 //below is the normal way we can do that
-public class NomalWay {
+public class NormalWay {
 
     public static void main(String[] args) {
-        NomalWay nomalWay = new NomalWay();
-        System.out.println(nomalWay.testStringLength("helw"));
+        NormalWay normalWay = new NormalWay();
+        System.out.println(normalWay.testStringLength("helw"));
     }
 
     public boolean testStringLength(String s){
