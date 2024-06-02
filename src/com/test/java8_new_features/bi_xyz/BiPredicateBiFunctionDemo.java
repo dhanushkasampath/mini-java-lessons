@@ -2,7 +2,6 @@ package com.test.java8_new_features.bi_xyz;
 
 import java.util.function.BiFunction;
 import java.util.function.BiPredicate;
-import java.util.function.Consumer;
 
 public class BiPredicateBiFunctionDemo {
 
