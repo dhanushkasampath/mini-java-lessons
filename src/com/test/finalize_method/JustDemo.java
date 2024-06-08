@@ -2,18 +2,14 @@ package com.test.finalize_method;
 
 public class JustDemo {
     public static void main(String[] args) {
-//        System.out.println("Hello and welcome!");
-
         JustDemo justDemo = new JustDemo();
         justDemo = null;
 
-        System.gc();
+//        System.gc(); //method 1 of triggering the garbage collector
+        Runtime.getRuntime().gc(); // method 2 of triggering the garbage collector
 
         System.out.println("line after garbage collection call");
-//        System.out.println(Thread.currentThread().getName());
-//
-//        Person person = new Person();
-//        person.start();
+
     }
 
     @Override
