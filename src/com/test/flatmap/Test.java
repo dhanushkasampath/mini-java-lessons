@@ -59,8 +59,11 @@ public class Test {
 
         //here flatmap is used to get values of list of list
         List<String> booksList = employeeList.stream().flatMap(employee -> employee.getBookList().stream()).map(book -> book.getName()).collect(Collectors.toList());
+//        List<String> booksList = employeeList.stream().flatMap(employee -> #get the stream of book lists and do the map to each book#).map(book -> book.getName()).collect(Collectors.toList());
+
+
         System.out.println(employeeList);
-        System.out.println(nameList);
+        System.out.println(nameList);//name is retrieved with uppercase
         System.out.println(booksList);
     }
 }
