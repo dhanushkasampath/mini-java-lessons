@@ -1,5 +1,10 @@
-package com.test.temp;
+package com.test.final_variables;
 
+/**
+ * we can initialize a final variable without a value.
+ * Then we can assign a value to it once.
+ * after that can not assign again
+ */
 public class Test {
     public static void main(String[] args) {
 
