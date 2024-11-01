@@ -57,7 +57,7 @@ public class Test {
         //here toUppercase function is applied on every item of the list
         List<String> nameList = employeeList.stream().map(employee -> employee.getName().toUpperCase()).collect(Collectors.toList());
 
-        //here flatmap is used to get values of list of list
+        //here flatmap is used to get values of list of list <- We can use this as the definition
         List<String> booksList = employeeList.stream().flatMap(employee -> employee.getBookList().stream()).map(book -> book.getName()).collect(Collectors.toList());
 //        List<String> booksList = employeeList.stream().flatMap(employee -> #get the stream of book lists and do the map to each book#).map(book -> book.getName()).collect(Collectors.toList());
 

@@ -9,7 +9,10 @@ public class MethodReferenceDemo {
         functionalInterfaceDemo.singleAbstractMethod();
 
        // The similar implementation using lambda expressions is given below
-        FunctionalInterfaceDemo functionalInterfaceDemoUsingLambdaExpression = () -> System.out.println("The similar implementation using lambda expressions");
+        FunctionalInterfaceDemo functionalInterfaceDemoUsingLambdaExpression = () -> {
+            System.out.println("The similar implementation using lambda expressions");
+            System.out.println("if you need some more lines in lambda expression, add curly braces after the -> sign");
+        };
         functionalInterfaceDemoUsingLambdaExpression.singleAbstractMethod();
     }
 }

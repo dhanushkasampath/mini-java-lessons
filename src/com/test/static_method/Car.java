@@ -2,7 +2,7 @@ package com.test.static_method;
 
 public class Car extends Vehicle{
 
-//    @Override
+//    @Override //this gives CE
     public static void getName(){
         System.out.println("Inside Car Honda Insight");
     }
@@ -17,6 +17,8 @@ public class Car extends Vehicle{
         vehicle.getName();//this will print the string in Vehicle class. not the string in car class.
         // This is called method hiding. by making the method static
         //when this kind of thing is done, we can not override the method in super class by extending that.
+
+        getName(); // this will call the getName method in Car class. So this act as a new method
 
         vehicle.getAge();
     }

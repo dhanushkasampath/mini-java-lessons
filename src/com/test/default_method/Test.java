@@ -8,12 +8,15 @@ public class Test implements A, B{
         test.getName();
         System.out.println(A.getFirstName()); // This is a drawback of static methods. We can not call them via the object of implemented class.
         //we need to call it directly By interface name
+
+        System.out.println("================================");
+        test.getName();
     }
 
-    //this is the solution for diamond problem
+    //this is the solution for diamond problem (solution in the sense, just override the getName() method which is differently available in A and B )
     @Override
     public void getName() {
-        A.super.getName();
+        B.super.getName();
         System.out.println("overidden");
     }
 }
